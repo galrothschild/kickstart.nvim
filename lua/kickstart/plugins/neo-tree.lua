@@ -14,6 +14,9 @@ return {
     { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
   },
   opts = {
+    filters = {
+      git_ignored = false,
+    },
     filesystem = {
       window = {
         position = 'right',
